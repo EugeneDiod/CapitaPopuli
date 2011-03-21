@@ -20,3 +20,5 @@ Check that everything is working fine by going to the `web/config.php` page in a
 browser and follow the instructions.
 
 Copy `parameters.dist.ini` to `parameters.ini` in `app/config/` and input your configuration.
+
+Make sure `app/cache` and `app/logs` are readwrite by php.
