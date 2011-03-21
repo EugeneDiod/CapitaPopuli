@@ -1,7 +1,7 @@
-CAPITA POPULI (aka capuli)
+CAPITA POPULI (aka. capuli)
 ==========================
 
-Democracy shall be flowering in Spring 2011.
+La démocratie bourgeonne en ce printemps 2011.
 
 INSTALLATION
 ------------
@@ -13,8 +13,10 @@ Run the following scripts:
  * `app/console assets:install web/`
 
 
-Configuration
+CONFIGURATION
 -------------
 
 Check that everything is working fine by going to the `web/config.php` page in a
 browser and follow the instructions.
+
+Copy `parameters.dist.ini` to `parameters.ini` in `app/config/` and input your configuration.
