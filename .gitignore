@@ -1,0 +1,20 @@
+# Stoopid Windows© files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Eclipse-generated files
+.settings/*
+.project
+.buildpath
+
+# PhpStorm
+.idea/*
+
+web/bundles/
+app/bootstrap*
+app/cache/*
+app/logs/*
+app/config/parameters.ini
+build/
+vendor/
