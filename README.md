@@ -21,4 +21,4 @@ browser and follow the instructions.
 
 Copy `parameters.dist.ini` to `parameters.ini` in `app/config/` and input your configuration.
 
-Make sure `app/cache` and `app/logs` are readwrite by php.
+Make sure `app/cache` and `app/logs` are read/write by php.

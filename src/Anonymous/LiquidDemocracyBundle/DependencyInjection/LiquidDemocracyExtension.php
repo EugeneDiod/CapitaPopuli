@@ -1,13 +1,13 @@
 <?php
 
-namespace Acme\DemoBundle\DependencyInjection;
+namespace Anonymous\LiquidDemocracyBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\Config\FileLocator;
 
-class AcmeDemoExtension extends Extension
+class LiquidDemocracyExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $container)
     {
@@ -17,6 +17,6 @@ class AcmeDemoExtension extends Extension
 
     public function getAlias()
     {
-        return 'acme_demo';
+        return 'liquid_democracy';
     }
 }

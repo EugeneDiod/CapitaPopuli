@@ -8,6 +8,7 @@ class AppKernel extends Kernel
     public function registerBundles()
     {
         $bundles = array(
+            // Usual SF2 Bundles
             new Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
             new Symfony\Bundle\SecurityBundle\SecurityBundle(),
             new Symfony\Bundle\TwigBundle\TwigBundle(),
@@ -17,7 +18,10 @@ class AppKernel extends Kernel
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
+            // Third-party Bundles
             new Acme\DemoBundle\AcmeDemoBundle(),
+            // Custom Bundles
+            new Anonymous\LiquidDemocracyBundle\LiquidDemocracyBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
